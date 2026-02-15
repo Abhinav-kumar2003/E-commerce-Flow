@@ -13,12 +13,14 @@ PCI-DSS compliance
 Page load time ≤ 1 second
 Scalability for 10× traffic spikes
 GDPR compliance
+
 ✅ Requirements Validation Strategy
 Formal reviews & walkthroughs
 UI prototyping & A/B testing
 Load testing & security testing
 Traceability matrix
 Continuous validation using CI/CD pipelines
+
 🌿 Branching & Merging Strategy
 This project follows a clean Git workflow:
 main – Stable, production-ready
@@ -31,18 +33,19 @@ No direct commits to main
 Pull Requests with reviews
 CI checks before merge
 Squash or rebase for clean history
-📁 Repository Structure (Example)
-.
-├── README.md
-├── docs/
-│   ├── SDLC_Comparison.pdf
-│   ├── Requirements_Document.pdf
-│   └── Validation_Strategy.pdf
-├── diagrams/
-│   ├── ER_Diagram.png
-│   └── Architecture.png
-└── references/
-    └── citations.txt
+
+📁 Repository Structure
+
+| Module | Description |
+|--------|-------------|
+| Product Catalog | Manage products, categories, media |
+| Inventory Sync | Real-time stock updates |
+| Checkout | Cart, one-click checkout |
+| Payments | Multi-gateway integration |
+| CRM | Customer management |
+
+
+    
 🧪 How to Use This Repository
 Read the SDLC comparison to understand process model trade-offs
 Refer to the SRD for functional & non-functional requirements
